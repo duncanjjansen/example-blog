@@ -1,0 +1,19 @@
+# Jekyll configuration for GitHub Pages
+title: "My Tech Blog"
+description: "A blog about technology, programming, and software development"
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+
+# Plugin settings (GitHub Pages supported plugins)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
